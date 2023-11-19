@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&display=swap');
+:root{
+    --text-color:rgb(255, 255, 255);
+    --text-color-second:rgb(202, 202, 1);
+    --background:rgb(0, 0, 0);
+    --box-shadow:rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+*{
+    font-family: 'Aclonica', sans-serif;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body{
+    background-color: var(--background);
+    margin:0;
+    color:var(--text-color);
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: fixed;
+    z-index: 10;    
+    font-size:24px;
+    letter-spacing: 2px;
+    padding: 12px;
+    width: 100vw;
+    background: rgb(0 0 0 / 50%);
+    box-shadow: var(--box-shadow);
+}
+a{
+    margin-right: 32px;
+    color:var(--primary-color);
+    text-decoration: none;
+    border-bottom: 3px solid transparent;
+    font-weight: bold;
+}
+#home{
+    background-image: url(../img/Satoru01.jpg);
+    /* background-size: 50% 100%; */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.title-group{
+    align-items: center;
+    justify-content: center;
+}
+.title-group>h1{
+    text-shadow: 0 0 3px #000000;
+    font-size: 128px;
+    margin-bottom: 1px;
+}
+.title-group>p{
+    text-shadow: 0 0 4px #ffffff;
+    font-size: 24px;
+    margin-top: 1px;
+}
+.title-name{
+    font-size: 24px;
+    display: flex;
+    justify-content: space-between;
+    width: 1600px;
+    margin-top: 200px;
+}
+section{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#about>h1{
+    font-size: 60px;
+}
+.about-title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1200px;
+    height: 680px;
+}
+.about-title img{
+    height: 320px;
+    border-style: double;
+    border-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: rgba(255, 255, 255, 0.3) 0px 19px 38px, rgba(255, 255, 255, 0.22) 0px 15px 12px;
+}
+.about-title>article{
+    width: 500px;
+}
+.about-title>aside{
+    width: 500px;
+}
+#skill>h1{
+    font-size: 60px;
+}
+#skill>p{
+    text-align: center;
+    width: 840px;
+}
+.contianer-skill{
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
+}
+.contianer-skill-first{
+    width: 400px;
+    height: 560px;
+    padding: 40px;
+    color: #000000;
+    background-color: white;
+    border-radius: 25px;
+    box-shadow: rgba(255, 255, 255, 0.3) 0px 19px 38px, rgba(255, 255, 255, 0.22) 0px 15px 12px;
+
+}
+.contianer-skill-second{
+    width: 400px;
+    height: 560px;
+    padding: 40px;
+    color: #ffffff;
+    background-color: black;
+    border-radius: 25px;
+    box-shadow: rgba(255, 255, 255, 0.3) 0px 19px 38px, rgba(255, 255, 255, 0.22) 0px 15px 12px;
+}
+#event>h1{
+    font-size: 60px;
+}
+.container-event{
+    width: 1200px;
+}
+.container-event img{
+    width: 200px;
+    height: 240px;
+}
+.event-first{
+    display: flex;
+    justify-content: space-between;
+    height: 240px;
+}
+.event-first-left{
+    width: 200px;
+}
+.event-first-right{
+    width: 900px;
+}
+.event-zero{
+    display: flex;
+    justify-content: space-between;
+    height: 240px;
+}
+.event-zero-left{
+    width: 900px;
+}
+.event-zero-right{
+    width: 200px;
+}
+.event-second{
+    display: flex;
+    justify-content: space-between;
+    height: 240px;
+}
+.event-second-left{
+    width: 200px;
+}
+.event-second-right{
+    width: 900px;
+}
+.event-shibuya{
+    display: flex;
+    justify-content: space-between;
+    height: 240px;
+}
+.event-shibuya-left{
+    width: 900px;
+}
+.event-shibuya-right{
+    width: 200px;
+}
+.container-next{
+    text-align: center;
+    margin-bottom: 100px;
+}
+footer{
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+.container-contact{
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+}
+.container-contact>article{
+    width: 400px;
+}
+.container-contact>aside{
+    width: 400px;
+    text-align: end;
+}
+.icon-first{
+    font-size: 30px;
+}
+.email{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.email>i{
+    margin-left: 200px;
+}
+.phone{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.phone>i{
+    margin-left: 180px;
+}
